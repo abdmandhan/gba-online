@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GBA ONLINE 🎮
 
-## Getting Started
+Play Game Boy Advance Pokémon games (Emerald, FireRed, …) in your browser. Built
+with **Next.js + EmulatorJS**, with per-user cloud save states on **AWS S3** and a
+retro CRT/neon UI (Press Start 2P).
 
-First, run the development server:
+> ⚠️ **No ROMs are included.** Upload only GBA ROMs you legally own.
 
+## Stack
+
+- Next.js (App Router, TS) + Tailwind CSS v4
+- Prisma 7 + PostgreSQL (via `@prisma/adapter-pg`)
+- Auth.js v5 — email/password (credentials), JWT sessions
+- AWS S3 (presigned PUT/GET) for ROMs + save states
+- Self-hosted EmulatorJS (`public/emulatorjs/data`), mGBA core
+
+## Setup
+
+### 1. Install deps
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Vendor EmulatorJS (self-hosted, gitignored)
+```bash
+bash scripts/fetch-emulatorjs.sh
+```
+Downloads the loader, built emulator, and the GBA (mGBA) core into
+`public/emulatorjs/data`. Add more systems by dropping `<core>-wasm.data` into
+`public/emulatorjs/data/cores/`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Environment
+```bash
+cp .env.example .env
+```
+Fill in:
+- `DATABASE_URL` — your PostgreSQL instance
+- `AUTH_SECRET` — `openssl rand -base64 32`
+- `AWS_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `S3_BUCKET`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**S3 bucket CORS** (needed for browser presigned PUT/GET):
+```json
+[
+  {
+    "AllowedMethods": ["GET", "PUT"],
+    "AllowedOrigins": ["http://localhost:3000"],
+    "AllowedHeaders": ["*"],
+    "ExposeHeaders": ["ETag"]
+  }
+]
+```
 
-## Learn More
+### 4. Database
+```bash
+npx prisma migrate dev   # creates tables (and the DB if missing)
+npx prisma generate      # generates the client to generated/prisma
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 5. Run
+```bash
+npm run dev
+```
+Open http://localhost:3000.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to play Pokémon Emerald
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Sign up (creates your account) at `/signin`.
+2. Click **+ Upload**, choose your `Pokemon Emerald.gba`, give it a title, upload.
+3. You're redirected into the player — the game boots automatically.
+4. Open the emulator menu (bottom bar) → **Save State**. The state (+ screenshot)
+   is uploaded to S3, scoped to your account. Next time you open the game it
+   auto-loads via `EJS_loadStateURL`.
 
-## Deploy on Vercel
+## Architecture notes
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `lib/prisma.ts` — Prisma client singleton (pg driver adapter)
+- `lib/s3.ts` — S3 client, `presignPut/presignGet`, key builders
+- `auth.ts` — Auth.js config; `app/api/auth/[...nextauth]` handler
+- `app/api/games` — list / create game (returns presigned ROM upload URL)
+- `app/api/games/[id]/rom` — presigned ROM download URL
+- `app/api/saves` — list user saves / upsert slot + presigned upload URLs
+- `components/EmulatorPlayer.tsx` — sets `EJS_*` globals, injects `loader.js`,
+  uploads save state via `EJS_onSaveState`
+- `app/play/[gameId]` — presigns ROM + latest save, renders the player
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## S3 layout
+
+```
+roms/{gameId}/{filename}.gba
+saves/{userId}/{gameId}/{slot}.state
+screenshots/{userId}/{gameId}/{slot}.png
+```

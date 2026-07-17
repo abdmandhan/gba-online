@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Prisma generated client
+/generated
+
+# EmulatorJS vendored data (large; re-fetch via scripts/fetch-emulatorjs.sh)
+/public/emulatorjs
