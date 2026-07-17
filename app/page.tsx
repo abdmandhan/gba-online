@@ -7,13 +7,27 @@ import { auth } from "@/auth";
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
-  const [games, session] = await Promise.all([
-    prisma.game.findMany({
-      orderBy: { createdAt: "desc" },
-      select: { id: true, title: true, core: true, coverUrl: true },
-    }),
-    auth(),
-  ]);
+  const session = await auth();
+
+  const games = await prisma.game.findMany({
+    orderBy: { createdAt: "desc" },
+    where: session?.user?.id
+      ? {
+          OR: [
+            { archivedAt: null },
+            { uploadedById: session.user.id },
+          ],
+        }
+      : { archivedAt: null },
+    select: {
+      id: true,
+      title: true,
+      core: true,
+      coverUrl: true,
+      uploadedById: true,
+      archivedAt: true,
+    },
+  });
 
   return (
     <>
@@ -51,7 +65,14 @@ export default async function Home() {
         ) : (
           <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
             {games.map((game) => (
-              <GameCard key={game.id} game={game} />
+              <GameCard
+                key={game.id}
+                game={game}
+                isOwner={
+                  !!session?.user?.id &&
+                  game.uploadedById === session.user.id
+                }
+              />
             ))}
           </div>
         )}
