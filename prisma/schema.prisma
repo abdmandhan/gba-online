@@ -73,7 +73,8 @@ model Game {
   romKey       String // S3 key: roms/{gameId}/{filename}.gba
   coverUrl     String?
   uploadedById String?
-  createdAt    DateTime @default(now())
+  createdAt    DateTime  @default(now())
+  archivedAt   DateTime?
 
   uploadedBy User?       @relation("UploadedGames", fields: [uploadedById], references: [id], onDelete: SetNull)
   saveStates SaveState[]
