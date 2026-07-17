@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Walk Through Walls",
+    "code": "7881A409 E2026E0C\n8E883EFF 92E9660D",
+    "description": "Pass through walls and obstacles"
+  },
+  {
+    "name": "Infinite Money",
+    "code": "D8BAE4D9 4864DCE5\nA86CDBA5 19BA49B3",
+    "description": "Max out your Pokédollars"
+  },
+  {
+    "name": "Master Ball in PC (x99)",
+    "code": "128898B6 EDA43037",
+    "description": "Get 99 Master Balls in your PC"
+  },
+  {
+    "name": "Rare Candy in PC (x99)",
+    "code": "BFF956FA 2F9EC50D",
+    "description": "Get 99 Rare Candies in your PC"
+  },
+  {
+    "name": "No Random Encounters",
+    "code": "B505DB41 6E39EA4E",
+    "description": "Disable wild Pokémon encounters"
+  },
+  {
+    "name": "Shiny Wild Pokémon",
+    "code": "F3A9A86D 4E2629B4\n18452A7D DDE55BCC",
+    "description": "All wild encounters are shiny"
+  },
+  {
+    "name": "Infinite PP",
+    "code": "42023C08 6363\n00000002 0002",
+    "description": "All moves have unlimited PP"
+  },
+  {
+    "name": "Fast EXP Gain",
+    "code": "FCBA9E9F 53BEDF04",
+    "description": "Gain experience much faster"
+  },
+  {
+    "name": "All Badges",
+    "code": "BEBE4350 48CFBBA4\n98A3AE62 D43DBD3C",
+    "description": "Unlock all 8 gym badges"
+  },
+  {
+    "name": "Max Repel Effect",
+    "code": "D9C5A996 FCDB2A76",
+    "description": "Always have max repel active"
+  }
+]

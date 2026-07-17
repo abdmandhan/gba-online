@@ -25,16 +25,20 @@ function numericId(id: string): number {
 // once and never redeclares in global scope.
 let bootedGameId: string | null = null;
 
+type CheatEntry = { name: string; code: string };
+
 export default function EmulatorPlayer({
   gameId,
   gameName,
   romUrl,
   loadStateUrl,
+  cheats = [],
 }: {
   gameId: string;
   gameName: string;
   romUrl: string;
   loadStateUrl: string | null;
+  cheats?: CheatEntry[];
 }) {
   useEffect(() => {
     // Same game already booted (StrictMode remount) → the loader is running; skip.
@@ -60,6 +64,13 @@ export default function EmulatorPlayer({
     window.EJS_pathtodata = "/emulatorjs/data/";
     window.EJS_startOnLoaded = true;
     if (loadStateUrl) window.EJS_loadStateURL = loadStateUrl;
+    if (cheats.length > 0) {
+      window.EJS_cheats = cheats.map((c) => ({
+        name: c.name,
+        code: c.code,
+        enable: false,
+      }));
+    }
 
     // Inject the loader exactly once. Do NOT remove it or delete the EJS_*
     // globals on cleanup — removing the <script> doesn't un-run it, and a second

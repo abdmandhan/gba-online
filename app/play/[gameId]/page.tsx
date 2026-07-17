@@ -6,6 +6,14 @@ import { fileUrl, presignGet } from "@/lib/s3";
 import SiteHeader from "@/components/SiteHeader";
 import EmulatorPlayer from "@/components/EmulatorPlayer";
 import SaveManager from "@/components/SaveManager";
+import CheatPanel from "@/components/CheatPanel";
+import emeraldCheats from "@/data/cheats/pokemon-emerald.json";
+
+type CheatEntry = { name: string; code: string; description?: string };
+
+const CHEAT_BANKS: Record<string, CheatEntry[]> = {
+  "pokemon-emerald": emeraldCheats,
+};
 
 export const dynamic = "force-dynamic";
 
@@ -22,6 +30,8 @@ export default async function PlayPage({
   if (!game || !game.romKey) notFound();
 
   const romUrl = await fileUrl(game.romKey);
+
+  const cheats: CheatEntry[] = CHEAT_BANKS[game.slug] ?? [];
 
   // Auto-load the user's most-recently-updated save-state on boot, if present.
   const latestSave = await prisma.saveState.findFirst({
@@ -52,9 +62,12 @@ export default async function PlayPage({
           gameName={game.title}
           romUrl={romUrl}
           loadStateUrl={loadStateUrl}
+          cheats={cheats}
         />
 
         <SaveManager gameId={game.id} />
+
+        <CheatPanel cheats={cheats} />
 
         <div className="panel mt-6 p-4 text-base leading-relaxed text-[var(--foreground)]">
           <p className="pixel text-[10px] glow-cyan">CONTROLS</p>
