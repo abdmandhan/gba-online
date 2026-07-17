@@ -65,11 +65,8 @@ export default function EmulatorPlayer({
     window.EJS_startOnLoaded = true;
     if (loadStateUrl) window.EJS_loadStateURL = loadStateUrl;
     if (cheats.length > 0) {
-      window.EJS_cheats = cheats.map((c) => ({
-        name: c.name,
-        code: c.code,
-        enable: false,
-      }));
+      // EJS_cheats expects [[desc, code], ...] — each entry is a 2-element array.
+      window.EJS_cheats = cheats.map((c) => [c.name, c.code]);
     }
 
     // Inject the loader exactly once. Do NOT remove it or delete the EJS_*

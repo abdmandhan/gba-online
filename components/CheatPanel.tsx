@@ -23,13 +23,14 @@ export default function CheatPanel({ cheats }: { cheats: Cheat[] }) {
 
     setEnabled((prev) => {
       const next = new Set(prev);
-      if (next.has(index)) {
-        next.delete(index);
-        emulator.disableCheat(index);
-      } else {
+      const nowEnabled = !next.has(index);
+      if (nowEnabled) {
         next.add(index);
-        emulator.enableCheat(index);
+      } else {
+        next.delete(index);
       }
+      // cheatChanged(checked, code, index) — the real EmulatorJS API
+      emulator.cheatChanged(nowEnabled, cheats[index].code, index);
       return next;
     });
   }
