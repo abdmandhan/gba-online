@@ -7,6 +7,8 @@ import { getSignedUrl } from "@aws-sdk/s3-request-presigner";
 
 const region = process.env.AWS_REGION || "us-east-1";
 export const S3_BUCKET = process.env.S3_BUCKET || "";
+// CloudFront domain fronting the private bucket (downloads go through it).
+export const S3_DOMAIN = (process.env.S3_DOMAIN || "").replace(/\/+$/, "");
 
 export const s3 = new S3Client({
   region,
@@ -25,10 +27,20 @@ export function presignPut(key: string, contentType?: string) {
   return getSignedUrl(s3, cmd, { expiresIn: PRESIGN_EXPIRES });
 }
 
-/** Presigned URL for downloading (HTTP GET) an object. */
+/** Presigned URL for downloading (HTTP GET) an object directly from S3. */
 export function presignGet(key: string) {
   const cmd = new GetObjectCommand({ Bucket: S3_BUCKET, Key: key });
   return getSignedUrl(s3, cmd, { expiresIn: PRESIGN_EXPIRES });
+}
+
+/**
+ * Download URL for an object. Uses the CloudFront domain when configured (the
+ * bucket is private and fronted by CloudFront); otherwise falls back to a
+ * presigned S3 GET so it still works without a CDN.
+ */
+export function fileUrl(key: string): Promise<string> {
+  if (S3_DOMAIN) return Promise.resolve(`${S3_DOMAIN}/${key}`);
+  return presignGet(key);
 }
 
 // ---------- S3 key builders ----------

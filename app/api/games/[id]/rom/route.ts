@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { auth } from "@/auth";
 import { prisma } from "@/lib/prisma";
-import { presignGet } from "@/lib/s3";
+import { fileUrl } from "@/lib/s3";
 
 // GET /api/games/[id]/rom — presigned download URL for the game's ROM (auth-gated).
 export async function GET(
@@ -19,6 +19,6 @@ export async function GET(
     return NextResponse.json({ error: "Game not found" }, { status: 404 });
   }
 
-  const url = await presignGet(game.romKey);
+  const url = await fileUrl(game.romKey);
   return NextResponse.json({ url });
 }

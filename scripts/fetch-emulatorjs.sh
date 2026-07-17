@@ -18,14 +18,20 @@ curl -sSL -o "$TMP/emulator.min.zip" "$CDN/emulator.min.zip"
 unzip -o "$TMP/emulator.min.zip" -d "$TMP/emu" >/dev/null
 
 echo "→ Downloading GBA core (mGBA)..."
-mkdir -p "$DST/cores"
+mkdir -p "$DST/cores/reports"
 for f in mgba-wasm.data mgba-legacy-wasm.data; do
   curl -sSL -o "$DST/cores/$f" "$CDN/cores/$f"
 done
+# Core report enables core caching (avoids re-download); its absence only warns.
+curl -sSL -o "$DST/cores/reports/mgba.json" "$CDN/cores/reports/mgba.json"
 
 echo "→ Assembling $DST ..."
-cp "$TMP/ejs/data/loader.js" "$DST/"
-cp "$TMP/ejs/data/version.json" "$DST/"
+# loader.js MUST come from the same stable CDN release as emulator.min.js.
+# The GitHub repo's loader.js expects an ES-module emulator (import()/default),
+# but the stable emulator.min.js is a classic script — mixing them yields
+# "EmulatorJS failed to load. Check for missing files."
+curl -sSL -o "$DST/loader.js" "$CDN/loader.js"
+curl -sSL -o "$DST/version.json" "$CDN/version.json"
 cp "$TMP/emu/emulator.min.js" "$TMP/emu/emulator.min.css" "$DST/"
 cp -r "$TMP/ejs/data/compression" "$DST/"
 cp -r "$TMP/ejs/data/localization" "$DST/"

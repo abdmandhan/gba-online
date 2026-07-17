@@ -4,7 +4,10 @@ import { prisma } from "@/lib/prisma";
 import { presignGet, presignPut, s3keys, S3_BUCKET } from "@/lib/s3";
 
 // GET /api/saves?gameId=... — list the current user's save states for a game,
-// each with presigned download URLs for the state + screenshot.
+// each with presigned download URLs for the state + screenshot. Save-state keys
+// are stable per slot, so we use presigned S3 GETs (unique signed URL each time,
+// hitting the S3 origin) rather than the stable CloudFront path — otherwise an
+// overwritten slot would serve the CDN/browser-cached old bytes.
 export async function GET(request: Request) {
   const session = await auth();
   if (!session?.user?.id) {

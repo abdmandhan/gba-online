@@ -123,7 +123,7 @@ export default function SignInPage() {
             setMode(mode === "signin" ? "signup" : "signin");
             setError(null);
           }}
-          className="mt-6 w-full text-center text-lg text-[var(--neon-cyan)] underline"
+          className="mt-6 w-full text-center text-lg text-[var(--neon-cyan)] underline "
         >
           {mode === "signin"
             ? "No account? Create one"

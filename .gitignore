@@ -45,3 +45,4 @@ next-env.d.ts
 
 # EmulatorJS vendored data (large; re-fetch via scripts/fetch-emulatorjs.sh)
 /public/emulatorjs
+.gstack/

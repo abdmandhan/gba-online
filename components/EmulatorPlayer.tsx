@@ -1,12 +1,6 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
-
-type SaveStatePayload = {
-  state?: Uint8Array;
-  screenshot?: Uint8Array;
-  format?: string;
-};
+import { useEffect } from "react";
 
 // EmulatorJS reads a set of `window.EJS_*` globals, so we augment the type.
 declare global {
@@ -25,21 +19,11 @@ function numericId(id: string): number {
   return Math.abs(h) || 1;
 }
 
-const EJS_KEYS = [
-  "EJS_player",
-  "EJS_core",
-  "EJS_gameUrl",
-  "EJS_gameID",
-  "EJS_gameName",
-  "EJS_pathtodata",
-  "EJS_startOnLoaded",
-  "EJS_loadStateURL",
-  "EJS_onSaveState",
-  "EJS_ready",
-  "EJS_onGameStart",
-  "EJS_emulator",
-  "EJS_Buttons",
-];
+// Module-scope guard: which game the EmulatorJS loader has already booted.
+// Survives React StrictMode's dev double-mount (a component ref would reset),
+// so `loader.js` — which declares top-level `const folderPath` — runs exactly
+// once and never redeclares in global scope.
+let bootedGameId: string | null = null;
 
 export default function EmulatorPlayer({
   gameId,
@@ -52,79 +36,50 @@ export default function EmulatorPlayer({
   romUrl: string;
   loadStateUrl: string | null;
 }) {
-  const containerRef = useRef<HTMLDivElement>(null);
-  const [saveMsg, setSaveMsg] = useState<string | null>(null);
-  const startedRef = useRef(false);
-
   useEffect(() => {
-    if (startedRef.current) return;
-    startedRef.current = true;
+    // Same game already booted (StrictMode remount) → the loader is running; skip.
+    if (bootedGameId === gameId) return;
 
-    async function uploadSaveState({ state, screenshot }: SaveStatePayload) {
-      try {
-        if (!state) return;
-        const hasScreenshot = !!(screenshot && screenshot.length);
-        const res = await fetch("/api/saves", {
-          method: "POST",
-          headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ gameId, slot: 0, hasScreenshot }),
-        });
-        if (!res.ok) throw new Error("Failed to register save slot");
-        const { stateUploadUrl, screenshotUploadUrl } = await res.json();
-
-        await fetch(stateUploadUrl, {
-          method: "PUT",
-          headers: { "Content-Type": "application/octet-stream" },
-          body: new Blob([new Uint8Array(state)]),
-        });
-        if (hasScreenshot && screenshotUploadUrl) {
-          await fetch(screenshotUploadUrl, {
-            method: "PUT",
-            headers: { "Content-Type": "image/png" },
-            body: new Blob([new Uint8Array(screenshot!)], { type: "image/png" }),
-          });
-        }
-        setSaveMsg("SAVED TO CLOUD ✔");
-      } catch {
-        setSaveMsg("SAVE FAILED ✕");
-      }
-      setTimeout(() => setSaveMsg(null), 2500);
+    // A different game was booted in this JS context. EmulatorJS can't cleanly
+    // re-initialise, so start from a fresh page load.
+    if (bootedGameId && bootedGameId !== gameId) {
+      window.location.reload();
+      return;
     }
+
+    bootedGameId = gameId;
 
     window.EJS_player = "#game";
     window.EJS_core = "gba";
+    // Use the base locale (e.g. "en" not "en-US"): our vendored localization
+    // ships base-language files only, so regional codes would 404.
+    window.EJS_language = (navigator.language || "en").split(/[-_]/)[0];
     window.EJS_gameUrl = romUrl;
     window.EJS_gameID = numericId(gameId);
     window.EJS_gameName = gameName;
     window.EJS_pathtodata = "/emulatorjs/data/";
     window.EJS_startOnLoaded = true;
-    window.EJS_onSaveState = uploadSaveState;
     if (loadStateUrl) window.EJS_loadStateURL = loadStateUrl;
 
-    const script = document.createElement("script");
-    script.src = "/emulatorjs/data/loader.js";
-    script.async = true;
-    document.body.appendChild(script);
-
-    return () => {
-      script.remove();
-      for (const k of EJS_KEYS) delete window[k];
-      startedRef.current = false;
-    };
+    // Inject the loader exactly once. Do NOT remove it or delete the EJS_*
+    // globals on cleanup — removing the <script> doesn't un-run it, and a second
+    // injection re-executes loader.js → "folderPath already declared".
+    if (!document.getElementById("ejs-loader")) {
+      const script = document.createElement("script");
+      script.id = "ejs-loader";
+      script.src = "/emulatorjs/data/loader.js";
+      script.async = true;
+      document.body.appendChild(script);
+    }
   }, [gameId, gameName, romUrl, loadStateUrl]);
 
   return (
     <div className="w-full">
       <div className="crt-frame relative w-full overflow-hidden rounded-lg">
         <div style={{ width: "100%", aspectRatio: "3 / 2" }}>
-          <div id="game" ref={containerRef} />
+          <div id="game" />
         </div>
       </div>
-      {saveMsg && (
-        <p className="mt-3 text-center text-[10px] text-[var(--neon-green)]">
-          {saveMsg}
-        </p>
-      )}
     </div>
   );
 }
