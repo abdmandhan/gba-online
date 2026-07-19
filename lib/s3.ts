@@ -27,9 +27,19 @@ export function presignPut(key: string, contentType?: string) {
   return getSignedUrl(s3, cmd, { expiresIn: PRESIGN_EXPIRES });
 }
 
-/** Presigned URL for downloading (HTTP GET) an object directly from S3. */
-export function presignGet(key: string) {
-  const cmd = new GetObjectCommand({ Bucket: S3_BUCKET, Key: key });
+/**
+ * Presigned URL for downloading (HTTP GET) an object directly from S3.
+ * Pass `downloadName` to force a browser download with that filename
+ * (via ResponseContentDisposition — honored by the S3 origin, not CloudFront).
+ */
+export function presignGet(key: string, downloadName?: string) {
+  const cmd = new GetObjectCommand({
+    Bucket: S3_BUCKET,
+    Key: key,
+    ...(downloadName
+      ? { ResponseContentDisposition: `attachment; filename="${downloadName}"` }
+      : {}),
+  });
   return getSignedUrl(s3, cmd, { expiresIn: PRESIGN_EXPIRES });
 }
 

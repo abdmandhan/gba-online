@@ -31,6 +31,10 @@ export default async function PlayPage({
 
   const romUrl = await fileUrl(game.romKey);
 
+  // Presigned S3 GET forcing an attachment download with the original filename.
+  const romName = game.romKey.split("/").pop() || `${game.slug}.gba`;
+  const romDownloadUrl = await presignGet(game.romKey, romName);
+
   const cheats: CheatEntry[] = CHEAT_BANKS[game.slug] ?? [];
 
   // Auto-load the user's most-recently-updated save-state on boot, if present.
@@ -52,9 +56,18 @@ export default async function PlayPage({
           <h1 className="pixel text-sm leading-relaxed glow-green">
             {game.title}
           </h1>
-          <Link href="/" className="btn-arcade btn-cyan no-underline">
-            ← Library
-          </Link>
+          <div className="flex items-center gap-3">
+            <a
+              href={romDownloadUrl}
+              download={romName}
+              className="btn-arcade btn-magenta no-underline"
+            >
+              ↓ ROM
+            </a>
+            <Link href="/" className="btn-arcade btn-cyan no-underline">
+              ← Library
+            </Link>
+          </div>
         </div>
 
         <EmulatorPlayer
