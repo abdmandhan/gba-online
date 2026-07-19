@@ -65,7 +65,7 @@ export default async function PlayPage({
           cheats={cheats}
         />
 
-        <SaveManager gameId={game.id} />
+        <SaveManager gameId={game.id} gameSlug={game.slug} />
 
         <CheatPanel cheats={cheats} />
 

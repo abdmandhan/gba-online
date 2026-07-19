@@ -81,6 +81,46 @@ export default function EmulatorPlayer({
     }
   }, [gameId, gameName, romUrl, loadStateUrl]);
 
+  // Stop the browser from scrolling the page when the player uses the D-pad /
+  // Start (arrows, space, page/home/end). Without this, walking to a screen
+  // edge scrolls the page down to the panels below the emulator. We only block
+  // when focus is NOT in a form/interactive element, so typing a save label or
+  // activating a button with Space still works.
+  useEffect(() => {
+    const SCROLL_KEYS = new Set([
+      "ArrowUp",
+      "ArrowDown",
+      "ArrowLeft",
+      "ArrowRight",
+      " ",
+      "PageUp",
+      "PageDown",
+      "Home",
+      "End",
+    ]);
+    function onKeyDown(e: KeyboardEvent) {
+      if (!SCROLL_KEYS.has(e.key)) return;
+      const el = e.target as HTMLElement | null;
+      const tag = el?.tagName;
+      if (
+        tag === "INPUT" ||
+        tag === "TEXTAREA" ||
+        tag === "SELECT" ||
+        tag === "BUTTON" ||
+        tag === "A" ||
+        el?.isContentEditable
+      ) {
+        return;
+      }
+      e.preventDefault();
+    }
+    // Capture phase: fire before EmulatorJS's own key handler (which stops
+    // propagation), so preventDefault still cancels the page scroll while the
+    // emulator keeps receiving the key.
+    window.addEventListener("keydown", onKeyDown, true);
+    return () => window.removeEventListener("keydown", onKeyDown, true);
+  }, []);
+
   return (
     <div className="w-full">
       <div className="crt-frame relative w-full overflow-hidden rounded-lg">

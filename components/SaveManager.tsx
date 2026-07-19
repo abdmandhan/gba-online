@@ -30,11 +30,19 @@ function relTime(iso: string): string {
   return `${Math.round(hrs / 24)}d ago`;
 }
 
-export default function SaveManager({ gameId }: { gameId: string }) {
+export default function SaveManager({
+  gameId,
+  gameSlug,
+}: {
+  gameId: string;
+  gameSlug?: string;
+}) {
+  const fileBase = gameSlug ?? gameId;
   const [ready, setReady] = useState(false);
   const [saves, setSaves] = useState<SaveEntry[]>([]);
   const [busySlot, setBusySlot] = useState<number | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
+  const [pendingSlot, setPendingSlot] = useState<number | null>(null);
   const msgTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const flash = useCallback((text: string) => {
@@ -76,6 +84,71 @@ export default function SaveManager({ gameId }: { gameId: string }) {
   }, [refresh]);
 
   const bySlot = new Map(saves.map((s) => [s.slot, s]));
+
+  // Latest values the (mount-once) key listener needs, refreshed every render so
+  // it never reads stale closures without re-binding the listener.
+  const kbRef = useRef<{
+    ready: boolean;
+    busySlot: number | null;
+    pendingSlot: number | null;
+    save: (slot: number) => void;
+  }>({ ready: false, busySlot: null, pendingSlot: null, save: () => {} });
+  useEffect(() => {
+    kbRef.current = { ready, busySlot, pendingSlot, save };
+  });
+
+  // Keyboard shortcuts: 1–6 → slots 0–5. Pressing a digit opens the confirm
+  // dialog for that slot; Enter/Escape confirm/cancel while it's open. Capture
+  // phase + stopImmediatePropagation so keys we consume (esp. Enter = GBA Start)
+  // never reach EmulatorJS.
+  useEffect(() => {
+    function onKey(e: KeyboardEvent) {
+      const el = e.target as HTMLElement | null;
+      const tag = el?.tagName;
+      if (
+        tag === "INPUT" ||
+        tag === "TEXTAREA" ||
+        tag === "SELECT" ||
+        tag === "BUTTON" ||
+        tag === "A" ||
+        el?.isContentEditable
+      ) {
+        return;
+      }
+      const { ready: r, busySlot: b, pendingSlot: p, save: doSave } =
+        kbRef.current;
+      const isSlotKey = /^[1-6]$/.test(e.key);
+
+      if (p === null) {
+        if (isSlotKey && r && b === null) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+          setPendingSlot(Number(e.key) - 1);
+        }
+        return;
+      }
+
+      // Dialog open.
+      if (e.key === "Enter") {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        if (b === null) {
+          setPendingSlot(null);
+          doSave(p);
+        }
+      } else if (e.key === "Escape") {
+        e.preventDefault();
+        e.stopImmediatePropagation();
+        setPendingSlot(null);
+      } else if (isSlotKey) {
+        // Swallow digits so they don't reach the game while confirming.
+        e.preventDefault();
+        e.stopImmediatePropagation();
+      }
+    }
+    window.addEventListener("keydown", onKey, true);
+    return () => window.removeEventListener("keydown", onKey, true);
+  }, []);
 
   async function save(slot: number) {
     const emu = readyEmulator();
@@ -125,6 +198,27 @@ export default function SaveManager({ gameId }: { gameId: string }) {
       flash(`SLOT ${slot} SAVE FAILED ✕`);
     } finally {
       setBusySlot(null);
+    }
+  }
+
+  async function download(slot: number) {
+    const entry = bySlot.get(slot);
+    if (!entry) return;
+    try {
+      const res = await fetch(entry.stateUrl); // presigned GET, same as load()
+      if (!res.ok) throw new Error("download");
+      const blob = await res.blob();
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${fileBase}-slot${slot}.state`;
+      document.body.appendChild(a);
+      a.click();
+      a.remove();
+      URL.revokeObjectURL(url);
+      flash(`SLOT ${slot} DOWNLOADED ✔`);
+    } catch {
+      flash(`SLOT ${slot} DOWNLOAD FAILED ✕`);
     }
   }
 
@@ -198,22 +292,32 @@ export default function SaveManager({ gameId }: { gameId: string }) {
                 </div>
 
                 {entry ? (
-                  <div className="flex gap-2">
+                  <div className="flex flex-col gap-2">
+                    <div className="flex gap-2">
+                      <button
+                        type="button"
+                        onClick={() => load(slot)}
+                        disabled={busySlot !== null}
+                        className="btn-arcade btn-cyan flex-1 !px-2 !py-2 !text-[9px]"
+                      >
+                        {busy ? "…" : "Load"}
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => save(slot)}
+                        disabled={busySlot !== null}
+                        className="btn-arcade flex-1 !px-2 !py-2 !text-[9px]"
+                      >
+                        {busy ? "…" : "Overwrite"}
+                      </button>
+                    </div>
                     <button
                       type="button"
-                      onClick={() => load(slot)}
+                      onClick={() => download(slot)}
                       disabled={busySlot !== null}
-                      className="btn-arcade btn-cyan flex-1 !px-2 !py-2 !text-[9px]"
+                      className="btn-arcade btn-magenta w-full !px-2 !py-2 !text-[9px]"
                     >
-                      {busy ? "…" : "Load"}
-                    </button>
-                    <button
-                      type="button"
-                      onClick={() => save(slot)}
-                      disabled={busySlot !== null}
-                      className="btn-arcade flex-1 !px-2 !py-2 !text-[9px]"
-                    >
-                      {busy ? "…" : "Overwrite"}
+                      Download
                     </button>
                   </div>
                 ) : (
@@ -229,6 +333,60 @@ export default function SaveManager({ gameId }: { gameId: string }) {
               </div>
             );
           })}
+        </div>
+      )}
+
+      {pendingSlot !== null && (
+        <div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4"
+          onClick={() => setPendingSlot(null)}
+        >
+          <div
+            className="panel w-full max-w-sm p-5"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <p className="pixel text-[11px] glow-cyan">
+              SAVE TO SLOT {pendingSlot}
+            </p>
+            {(() => {
+              const existing = bySlot.get(pendingSlot);
+              return existing ? (
+                <p className="mt-3 text-base text-[var(--neon-magenta)]">
+                  Overwrite existing save
+                  {existing.label ? ` “${existing.label}”` : ""} ·{" "}
+                  {relTime(existing.updatedAt)}
+                </p>
+              ) : (
+                <p className="mt-3 text-base text-[var(--foreground)]">
+                  Empty slot — save here?
+                </p>
+              );
+            })()}
+            <div className="mt-5 flex gap-3">
+              <button
+                type="button"
+                onClick={() => {
+                  const slot = pendingSlot;
+                  setPendingSlot(null);
+                  save(slot);
+                }}
+                disabled={busySlot !== null}
+                className="btn-arcade flex-1"
+              >
+                Confirm
+              </button>
+              <button
+                type="button"
+                onClick={() => setPendingSlot(null)}
+                className="btn-arcade btn-cyan flex-1"
+              >
+                Cancel
+              </button>
+            </div>
+            <p className="mt-3 text-center text-sm text-[var(--neon-cyan)]">
+              Press Enter to confirm · Esc to cancel
+            </p>
+          </div>
         </div>
       )}
     </div>
