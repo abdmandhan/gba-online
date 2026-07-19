@@ -23,20 +23,25 @@ export default function CheatPanel({ cheats }: { cheats: Cheat[] }) {
 
     setEnabled((prev) => {
       const next = new Set(prev);
-      if (next.has(index)) {
-        next.delete(index);
-      } else {
+      const nowEnabled = !next.has(index);
+      if (nowEnabled) {
         next.add(index);
+      } else {
+        next.delete(index);
       }
 
-      // setCheat only adds cheats — it can't remove individual ones.
-      // Must reset all, then re-apply only the enabled ones (same as the built-in cheat UI).
-      emulator.gameManager.resetCheat();
-      cheats.forEach((cheat, i) => {
-        if (next.has(i)) {
-          emulator.gameManager.setCheat(i, true, cheat.code);
-        }
-      });
+      // Sync the emulator's internal cheats array so updateCheatUI applies
+      // the right checked state when it does its reset+reapply cycle.
+      if (Array.isArray(emulator.cheats) && emulator.cheats[index] !== undefined) {
+        emulator.cheats[index].checked = nowEnabled;
+        emulator.updateCheatUI();
+      } else {
+        // Fallback: manually reset + reapply if internal array isn't populated yet.
+        emulator.gameManager.resetCheat();
+        cheats.forEach((cheat, i) => {
+          if (next.has(i)) emulator.gameManager.setCheat(i, true, cheat.code);
+        });
+      }
 
       return next;
     });
