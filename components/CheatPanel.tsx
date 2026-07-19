@@ -16,21 +16,28 @@ export default function CheatPanel({ cheats }: { cheats: Cheat[] }) {
 
   function toggle(index: number) {
     const emulator = window.EJS_emulator;
-    if (!emulator) {
+    if (!emulator?.gameManager) {
       alert("Start the game first, then toggle cheats.");
       return;
     }
 
     setEnabled((prev) => {
       const next = new Set(prev);
-      const nowEnabled = !next.has(index);
-      if (nowEnabled) {
-        next.add(index);
-      } else {
+      if (next.has(index)) {
         next.delete(index);
+      } else {
+        next.add(index);
       }
-      // cheatChanged(checked, code, index) — the real EmulatorJS API
-      emulator.cheatChanged(nowEnabled, cheats[index].code, index);
+
+      // setCheat only adds cheats — it can't remove individual ones.
+      // Must reset all, then re-apply only the enabled ones (same as the built-in cheat UI).
+      emulator.gameManager.resetCheat();
+      cheats.forEach((cheat, i) => {
+        if (next.has(i)) {
+          emulator.gameManager.setCheat(i, true, cheat.code);
+        }
+      });
+
       return next;
     });
   }
