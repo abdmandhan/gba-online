@@ -1,52 +1,800 @@
 [
   {
     "name": "Walk Through Walls",
+    "category": "Gameplay",
     "code": "7881A409 E2026E0C\n8E883EFF 92E9660D",
     "description": "Pass through walls and obstacles"
   },
   {
     "name": "Infinite Money",
+    "category": "Gameplay",
     "code": "D8BAE4D9 4864DCE5\nA86CDBA5 19BA49B3",
     "description": "Max out your Pokédollars"
   },
   {
     "name": "Master Ball in PC (x99)",
+    "category": "Items",
     "code": "128898B6 EDA43037",
     "description": "Get 99 Master Balls in your PC"
   },
   {
     "name": "Rare Candy in PC (x99)",
+    "category": "Items",
     "code": "BFF956FA 2F9EC50D",
     "description": "Get 99 Rare Candies in your PC"
   },
   {
+    "name": "Full Heal",
+    "category": "Items",
+    "code": "82005274 0017",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Revive",
+    "category": "Items",
+    "code": "82005274 0018",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Max Revive",
+    "category": "Items",
+    "code": "82005274 0019",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Fresh Water",
+    "category": "Items",
+    "code": "82005274 001A",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Soda Pop",
+    "category": "Items",
+    "code": "82005274 001B",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Lemonade",
+    "category": "Items",
+    "code": "82005274 001C",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "MooMoo Milk",
+    "category": "Items",
+    "code": "82005274 001D",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Energy Powder",
+    "category": "Items",
+    "code": "82005274 001E",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Energy Root",
+    "category": "Items",
+    "code": "82005274 001F",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Heal Powder",
+    "category": "Items",
+    "code": "82005274 0020",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Revival Herb",
+    "category": "Items",
+    "code": "82005274 0021",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Ether",
+    "category": "Items",
+    "code": "82005274 0022",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Max Ether",
+    "category": "Items",
+    "code": "82005274 0023",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Elixir",
+    "category": "Items",
+    "code": "82005274 0024",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Max Elixir",
+    "category": "Items",
+    "code": "82005274 0025",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Lava Cookie",
+    "category": "Items",
+    "code": "82005274 0026",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Blue Flute",
+    "category": "Items",
+    "code": "82005274 0027",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Yellow Flute",
+    "category": "Items",
+    "code": "82005274 0028",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Red Flute",
+    "category": "Items",
+    "code": "82005274 0029",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Black Flute",
+    "category": "Items",
+    "code": "82005274 002A",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "White Flute",
+    "category": "Items",
+    "code": "82005274 002B",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Berry Juice",
+    "category": "Items",
+    "code": "82005274 002C",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Sacred Ash",
+    "category": "Items",
+    "code": "82005274 002D",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Shoal Salt",
+    "category": "Items",
+    "code": "82005274 002E",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Shoal Shell",
+    "category": "Items",
+    "code": "82005274 002F",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Red Shard",
+    "category": "Items",
+    "code": "82005274 0030",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Blue Shard",
+    "category": "Items",
+    "code": "82005274 0031",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Yellow Shard",
+    "category": "Items",
+    "code": "82005274 0032",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Green Shard",
+    "category": "Items",
+    "code": "82005274 0033",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "HP Up",
+    "category": "Items",
+    "code": "82005274 003F",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Protein",
+    "category": "Items",
+    "code": "82005274 0040",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Iron",
+    "category": "Items",
+    "code": "82005274 0041",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Carbos",
+    "category": "Items",
+    "code": "82005274 0042",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Calcium",
+    "category": "Items",
+    "code": "82005274 0043",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Rare Candy",
+    "category": "Items",
+    "code": "82005274 0044",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "PP Up",
+    "category": "Items",
+    "code": "82005274 0045",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Zinc",
+    "category": "Items",
+    "code": "82005274 0046",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "PP Max",
+    "category": "Items",
+    "code": "82005274 0047",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Guard Spec",
+    "category": "Items",
+    "code": "82005274 0049",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Dire Hit",
+    "category": "Items",
+    "code": "82005274 004A",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "X Attack",
+    "category": "Items",
+    "code": "82005274 004B",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "X Defend",
+    "category": "Items",
+    "code": "82005274 004C",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "X Speed",
+    "category": "Items",
+    "code": "82005274 004D",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "X Accuracy",
+    "category": "Items",
+    "code": "82005274 004E",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "X Special",
+    "category": "Items",
+    "code": "82005274 004F",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Poke Doll",
+    "category": "Items",
+    "code": "82005274 0050",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Fluffy Tail",
+    "category": "Items",
+    "code": "82005274 0051",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Fire Stone",
+    "category": "Items",
+    "code": "82005274 0053",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Max Repel",
+    "category": "Items",
+    "code": "82005274 0054",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Escape Rope",
+    "category": "Items",
+    "code": "82005274 0055",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Repel",
+    "category": "Items",
+    "code": "82005274 0056",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Sun Stone",
+    "category": "Items",
+    "code": "82005274 005D",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Moon Stone",
+    "category": "Items",
+    "code": "82005274 005E",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Fire Stone (005F)",
+    "category": "Items",
+    "code": "82005274 005F",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Thunder Stone",
+    "category": "Items",
+    "code": "82005274 0060",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Water Stone",
+    "category": "Items",
+    "code": "82005274 0061",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Leaf Stone",
+    "category": "Items",
+    "code": "82005274 0062",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Tiny Mushroom",
+    "category": "Items",
+    "code": "82005274 0067",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Big Mushroom",
+    "category": "Items",
+    "code": "82005274 0068",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Pearl",
+    "category": "Items",
+    "code": "82005274 006A",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Big Pearl",
+    "category": "Items",
+    "code": "82005274 006B",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Stardust",
+    "category": "Items",
+    "code": "82005274 006C",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Star Piece",
+    "category": "Items",
+    "code": "82005274 006D",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Nugget",
+    "category": "Items",
+    "code": "82005274 006E",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
+    "name": "Heart Scale",
+    "category": "Items",
+    "code": "82005274 006F",
+    "description": "Buy the 1st item in a Poké Mart to receive this item"
+  },
+  {
     "name": "No Random Encounters",
+    "category": "Gameplay",
     "code": "B505DB41 6E39EA4E",
     "description": "Disable wild Pokémon encounters"
   },
   {
     "name": "Shiny Wild Pokémon",
+    "category": "Gameplay",
     "code": "F3A9A86D 4E2629B4\n18452A7D DDE55BCC",
     "description": "All wild encounters are shiny"
   },
   {
     "name": "Infinite PP",
+    "category": "Gameplay",
     "code": "42023C08 6363\n00000002 0002",
     "description": "All moves have unlimited PP"
   },
   {
     "name": "Fast EXP Gain",
+    "category": "Gameplay",
     "code": "FCBA9E9F 53BEDF04",
     "description": "Gain experience much faster"
   },
   {
     "name": "All Badges",
+    "category": "Gameplay",
     "code": "BEBE4350 48CFBBA4\n98A3AE62 D43DBD3C",
     "description": "Unlock all 8 gym badges"
   },
   {
     "name": "Max Repel Effect",
+    "category": "Gameplay",
     "code": "D9C5A996 FCDB2A76",
     "description": "Always have max repel active"
+  },
+  {
+    "name": "TM01 - Focus Punch",
+    "category": "TMs & HMs",
+    "code": "82005274 0121",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM02 - Dragon Claw",
+    "category": "TMs & HMs",
+    "code": "82005274 0122",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM03 - Water Pulse",
+    "category": "TMs & HMs",
+    "code": "82005274 0123",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM04 - Calm Mind",
+    "category": "TMs & HMs",
+    "code": "82005274 0124",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM05 - Roar",
+    "category": "TMs & HMs",
+    "code": "82005274 0125",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM06 - Toxic",
+    "category": "TMs & HMs",
+    "code": "82005274 0126",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM07 - Hail",
+    "category": "TMs & HMs",
+    "code": "82005274 0127",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM08 - Bulk Up",
+    "category": "TMs & HMs",
+    "code": "82005274 0128",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM09 - Bullet Seed",
+    "category": "TMs & HMs",
+    "code": "82005274 0129",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM10 - Hidden Power",
+    "category": "TMs & HMs",
+    "code": "82005274 012A",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM11 - Sunny Day",
+    "category": "TMs & HMs",
+    "code": "82005274 012B",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM12 - Taunt",
+    "category": "TMs & HMs",
+    "code": "82005274 012C",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM13 - Ice Beam",
+    "category": "TMs & HMs",
+    "code": "82005274 012D",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM14 - Blizzard",
+    "category": "TMs & HMs",
+    "code": "82005274 012E",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM15 - Hyper Beam",
+    "category": "TMs & HMs",
+    "code": "82005274 012F",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM16 - Light Screen",
+    "category": "TMs & HMs",
+    "code": "82005274 0130",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM17 - Protect",
+    "category": "TMs & HMs",
+    "code": "82005274 0131",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM18 - Rain Dance",
+    "category": "TMs & HMs",
+    "code": "82005274 0132",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM19 - Giga Drain",
+    "category": "TMs & HMs",
+    "code": "82005274 0133",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM20 - Safeguard",
+    "category": "TMs & HMs",
+    "code": "82005274 0134",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM21 - Frustration",
+    "category": "TMs & HMs",
+    "code": "82005274 0135",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM22 - SolarBeam",
+    "category": "TMs & HMs",
+    "code": "82005274 0136",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM23 - Iron Tail",
+    "category": "TMs & HMs",
+    "code": "82005274 0137",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM24 - Thunderbolt",
+    "category": "TMs & HMs",
+    "code": "82005274 0138",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM25 - Thunder",
+    "category": "TMs & HMs",
+    "code": "82005274 0139",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM26 - Earthquake",
+    "category": "TMs & HMs",
+    "code": "82005274 013A",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM27 - Return",
+    "category": "TMs & HMs",
+    "code": "82005274 013B",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM28 - Dig",
+    "category": "TMs & HMs",
+    "code": "82005274 013C",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM29 - Psychic",
+    "category": "TMs & HMs",
+    "code": "82005274 013D",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM30 - Shadow Ball",
+    "category": "TMs & HMs",
+    "code": "82005274 013E",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM31 - Brick Break",
+    "category": "TMs & HMs",
+    "code": "82005274 013F",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM32 - Double Team",
+    "category": "TMs & HMs",
+    "code": "82005274 0140",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM33 - Reflect",
+    "category": "TMs & HMs",
+    "code": "82005274 0141",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM34 - Shock Wave",
+    "category": "TMs & HMs",
+    "code": "82005274 0142",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM35 - Flamethrower",
+    "category": "TMs & HMs",
+    "code": "82005274 0143",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM36 - Sludge Bomb",
+    "category": "TMs & HMs",
+    "code": "82005274 0144",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM37 - Sandstorm",
+    "category": "TMs & HMs",
+    "code": "82005274 0145",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM38 - Fire Blast",
+    "category": "TMs & HMs",
+    "code": "82005274 0146",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM39 - Rock Tomb",
+    "category": "TMs & HMs",
+    "code": "82005274 0147",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM40 - Aerial Ace",
+    "category": "TMs & HMs",
+    "code": "82005274 0148",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM41 - Torment",
+    "category": "TMs & HMs",
+    "code": "82005274 0149",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM42 - Facade",
+    "category": "TMs & HMs",
+    "code": "82005274 014A",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM43 - Secret Power",
+    "category": "TMs & HMs",
+    "code": "82005274 014B",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM44 - Rest",
+    "category": "TMs & HMs",
+    "code": "82005274 014C",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM45 - Attract",
+    "category": "TMs & HMs",
+    "code": "82005274 014D",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM46 - Thief",
+    "category": "TMs & HMs",
+    "code": "82005274 014E",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM47 - Steel Wing",
+    "category": "TMs & HMs",
+    "code": "82005274 014F",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM48 - Skill Swap",
+    "category": "TMs & HMs",
+    "code": "82005274 0150",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM49 - Snatch",
+    "category": "TMs & HMs",
+    "code": "82005274 0151",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "TM50 - Overheat",
+    "category": "TMs & HMs",
+    "code": "82005274 0152",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM01 - Cut",
+    "category": "TMs & HMs",
+    "code": "82005274 0153",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM02 - Fly",
+    "category": "TMs & HMs",
+    "code": "82005274 0154",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM03 - Surf",
+    "category": "TMs & HMs",
+    "code": "82005274 0155",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM04 - Strength",
+    "category": "TMs & HMs",
+    "code": "82005274 0156",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM05 - Flash",
+    "category": "TMs & HMs",
+    "code": "82005274 0157",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM06 - Rock Smash",
+    "category": "TMs & HMs",
+    "code": "82005274 0158",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM07 - Waterfall",
+    "category": "TMs & HMs",
+    "code": "82005274 0159",
+    "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "HM08 - Dive",
+    "category": "TMs & HMs",
+    "code": "82005274 015A",
+    "description": "TM's and HM's (Code Breaker)"
   }
 ]

@@ -95,3 +95,18 @@ model SaveState {
 
   @@unique([userId, gameId, slot])
 }
+
+// Cheat codes for a game, keyed by the game's slug (no FK — shared per slug).
+model Cheat {
+  id          String   @id @default(cuid())
+  gameSlug    String
+  category    String
+  name        String
+  code        String
+  description String?
+  sortOrder   Int      @default(0)
+  createdAt   DateTime @default(now())
+
+  @@unique([gameSlug, name])
+  @@index([gameSlug])
+}
