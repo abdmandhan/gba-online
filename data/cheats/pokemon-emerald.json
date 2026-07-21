@@ -796,5 +796,2321 @@
     "category": "TMs & HMs",
     "code": "82005274 015A",
     "description": "TM's and HM's (Code Breaker)"
+  },
+  {
+    "name": "Bulbasaur",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n95CCF842 A51B89F8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ivysaur",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n45137A53 D297AE14\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Venusaur",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n68635EB4 A58C0B8F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Charmander",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n93AC578A 22BA7A0D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Charmeleon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF05DEEE9 EBB3D688\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Charizard",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n547D682A C32E071E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Squirtle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9A01C36B 1076E41F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Wartortle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCF9EEAEE CFFC5E43\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Blastoise",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF9EC86F2 F1AE901C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Caterpie",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6E3569DA 2C018DFB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Metapod",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n97740B8E 08FE2CC5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Butterfree",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n33B10452 45417121\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Weedle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8A6C6F01 9122E8FA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kakuna",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD5642A80 EEA3322A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Beedrill",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n3691E64B 01A53CE0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pidgey",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4835F75A FE376BB2\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pidgeotto",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE2E0151F DD716ACC\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pidgeot",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n2BAE0036 7E3BD49C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Rattata",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n2444CA48 71E177B1\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Raticate",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4EA4F03D 83971E7F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Spearow",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4B9EE4D4 C3668163\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Fearow",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n21D457DF 6EFADA38\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ekans",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4A6E16B9 022729F0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Arbok",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBB140DAD CA2D2FE4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pikachu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n660CC6B5 55A57BEA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Raichu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA6C670ED EDAC51EE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sandshrew",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n02FC7B4A 10549164\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sandslash",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n5DBB6BE5 A93738DC\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Nidoran Female",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n5ED60CFD B04A80FF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Nidorina",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n5A2CADDA C50DF80E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Nidoqueen",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE8AD08B4 81D53DB8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Nidoran Male",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n99A4681A 1F4B1155\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Nidorino",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n5B3449E7 5A708684\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Nidoking",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1509E0E1 55023731\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Clefairy",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA806BAD5 0D627B0E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Clefable",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n72F22022 9735C554\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Vulpix",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBD9EA700 FED9FC8E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ninetales",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFF6F46C4 D06C232A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Jigglypuff",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6A400AF0 3446E6DE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Wigglytuff",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1387AC2A 6C215604\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Zubat",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n7AEC93B9 5E8A60C1\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Golbat",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n65597D8C CDC0C72A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Oddish",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8518B717 1EFB89B5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Gloom",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFB0BD7A 1D1AE277\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Vileplume",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8780CDD3 4E783921\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Paras",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDCC838A4 FC68772E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Parasect",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n67E7B9D0 46CED87F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Venonat",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4F9DD11B 7380CFFF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Venomoth",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n2370A927 9F4E13C4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Diglett",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n012D24B8 46585D19\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dugtrio",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4D45D9A2 96BB2BC4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Meowth",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCD7A55FF 37D9DB13\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Persian",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE55FCD26 59F2C3B1\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Psyduck",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE27FA1B4 BA4ECDC3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Golduck",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n074CB1DB BC709561\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Mankey",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBB69AC08 0A1CB141\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Primeape",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE32883E8 8DF414BD\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Growlithe",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n2A61F8BC D9183B9A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Arcanine",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBA8030AA BFDF270D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Poliwag",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF3432C0D 8D009C8C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Poliwhirl",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCA744AE9 6270D066\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Poliwrath",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1A5BA808 6CF49A03\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Abra",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBE70977D 01EFBB41\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kadabra",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n58E09F0A 552BB6DE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Alakazam",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBA1CDA88 208B4246\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Machop",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n99305CBA 94E320E8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Machoke",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n14434C69 92950567\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Machamp",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6F68608A 772EF8F7\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Bellsprout",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCC919BA3 86BA418C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Weepinbell",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n3FCB610F AA37A54F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Victreebel",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nAF2ACBCD A346B7D2\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Tentacool",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFE9D2E8D 54EB1CCB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Tentacruel",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6BC757F2 F99A7775\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Geodude",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n10EA0647 E890769A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Graveler",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBD6D9201 3FE77AF4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Golem",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n08368143 32E78595\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ponyta",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4D6594AC 226DE782\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Rapidash",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n407FA1C4 8FFFE45A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Slowpoke",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1F5DCDC2 CDAB85B2\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Slowbro",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA4938C1B 48D317F2\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Magnemite",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nAD2D00A6 2449E747\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Magneton",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE725E6BF 5D990F74\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Farfetch’D",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4F9FF1B3 41579F91\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Doduo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDD4D86E1 A1BA4C85\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dodrio",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB49F6E03 69F43344\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Seel",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n36C02C3C FAE210F9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dewgong",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB48780C8 BC431404\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Grimer",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDE198C26 4B7F3F39\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Muk",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFB5683D0 BD7CE464\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Shellder",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0A12DB2A 687E15FE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Cloyster",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n156FB7EE 0F46F0F8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Gastly",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6D168E8C 75601292\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Haunter",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n620E0BB9 4AC30F3A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Gengar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n782DC654 B4FE683E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Onix",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFA311C8B 8D4B7951\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Drowzee",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDE6855AB 881530C4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Hypno",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nEDCDA998 F01B9952\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Krabby",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDDB43E39 72301DDE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kingler",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n3BA12F4A D14B3FB9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Voltorb",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nED43DE7B 506EE8EF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Electrode",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB59808DE CDCCC8FA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Exeggcute",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF2E388AD 8829EEE0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Exeggutor",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB490D905 2398B980\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Cubone",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9D30EF84 E87DE35E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Marowak",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n35ABC330 F1B9FEC1\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Hitmonlee",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE971BEAF 4E2B350C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Hitmonchan",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD6482BD5 9CB470F3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Lickitung",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD1DEF2F0 7D442372\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Koffing",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n184EB5C9 D3C078E0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Weezing",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8F1F8C1B F39777B7\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Rhyhorn",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE6246E41 CDAB3D33\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Rhydon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9AE75341 93847383\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Chansey",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA6432BE1 09BC0882\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Tangela",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n22371D6A FEF4C5B4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kangaskhan",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8817BAC5 070F031F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Horsea",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF0A50DC4 194F5D22\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Seadra",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n922B4B8E 089BEFF8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Goldeen",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD015B582 E702FC5C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Seaking",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA98355BD 794D8C28\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Staryu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9AA4EF0B 101140CB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Starmie",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1E7DCA35 F1BA9A6B\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Mr.Mime",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF456FD7B B63D7CE9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Scyther",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF61ABB6A 6E7BECFA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Jynx",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6238938B 0CC2855A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Electabuzz",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0925ED17 74E0D4C4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Magmar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC688E266 8CFBD628\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pinsir",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB962930D 5C9F5AD5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Tauros",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n264B5986 B11F47FB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Magikarp",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n34C880E5 7370BC2B\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Gyarados",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n989D99A2 1AB2A1F6\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Lapras",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n3F6E2930 901AAD04\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ditto",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDA282BFA 9C07FEF4\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Eevee",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0599BD5D C5FC9527\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Vaporeon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0212E158 09F7287B\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Jolteon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n17476E08 FAC05D0F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Flareon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFA29FEE0 C8E57EC9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Porygon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n36132F8A D4FFFEAA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Omanyte",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0487DECA D040BCC7\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Omastar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n69162D6F 80F55D41\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kabuto",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF09E8954 DFBB674C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kabutops",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n74F1C101 0BD05BA6\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Aerodactyl",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n5D414389 D97994D5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Snorlax",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n39EFFFA2 7CBECFBE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Articuno",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n37CB922D 8C27EAF9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Zapdos",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n7865FEA1 53AB20EB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Moltres",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8158C8A5 AF3683E0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dratini",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n27E22FF0 A390DC50\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dragonair",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n947735FB 9EC18C97\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dragonite",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nEF4835B3 519FF2C8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Mewtwo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n87890B58 2E56A57A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Mew",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4DBED8A6 0E000A38\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Chikorita",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9C764877 F45E4A0D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Bayleef",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n422D2E16 DB84DA0F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Meganium",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4CBE4A42 AC28BA5D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Cyndaquil",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD6343479 33191E1A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Quilava",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBFD1B75E D6A82EB3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Typhlosion",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA43EAEF9 F4C985BF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Totodile",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4413AFA9 8B0CB1FE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Croconaw",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nEB9550F0 E55A2028\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Feraligatr",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9E411B29 EA279FC3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sentret",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4ADABD4C C32D1118\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Furret",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFD75470 24BDB4FD\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Hoothoot",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n7DB0BD61 81429CEB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Noctowl",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n858AFEC8 973B7B3F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ledyba",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n858176D2 0280077C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ledian",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n74ABDE26 FD1A17E0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Spinarak",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n7E77BFFA B493A9A9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ariados",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4D1F4CA7 5401FE78\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Crobat",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB17E9792 436C4C59\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Chinchou",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1A39F7F6 80807AD8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Lanturn",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nEE1F9BA6 710EFB84\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pichu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n017B88E4 86BDF317\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Cleffa",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB7162DE7 E6A464DF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Igglybuff",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nDE764A64 BF64F7F6\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Togepi",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4544B25D 387740CE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Togetic",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n7A5E9DC8 D064468D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Natu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nAD725609 CAAE6842\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Xatu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n002D888E B4B6BF60\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Mareep",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB64400E0 4E14D699\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Flaaffy",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE8F2E5C5 0835A654\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ampharos",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC32EEE83 50D19A5D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Bellossom",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA80C80BB 9D2AB665\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Marill",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n83AF3F10 0B1AD5B0\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Azumarill",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6527DD77 0AC4E642\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sudowoodo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC1E4B488 EB9A9D49\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Politoed",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFF513617 509C2A38\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Hoppip",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA54B8C94 2AB9E18C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Skiploom",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n68FBC4EC DEC68071\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Jumpluff",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA3657532 EAA48DB5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Aipom",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n41CDAD7E 3C0C2AC7\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sunkern",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n46CAD180 9669DAF9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sunflora",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE8EF24D7 CF6DAFC8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Yanma",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n618D1C4A DFE2B19D\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Wooper",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB37F594F 9DA179D8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Quagsire",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1A966354 5A1BCDAE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Espeon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n42DCA93D F57CCF59\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Umbreon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFE110436 930155BB\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Murkrow",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCB308F46 02B5F41F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Slowking",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF02C7A08 272D3D93\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Misdreavus",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC492C15C B126ED6B\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Unown",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n144D37F4 48005B0A\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Wobbuffet",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n4DAD6DA1 FD8B2CF9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Girafarig",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n45CD7B4C A5BA8D70\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pineco",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB42510CF 996B5823\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Forretress",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9107CE96 57236944\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Dunsparce",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n678CB943 1AA28A37\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Gligar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE91DFE71 9B276760\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Steelix",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFB53C2C2 423BE628\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Snubbull",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n360A0144 B917DA93\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Granbull",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC37E4760 15B8DF11\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Qwilfish",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n27C989BB 4539B6F3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Scizor",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n627320A1 D829A287\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Shuckle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD18BEA3A F5C26AE5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Heracross",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n65F95C5E DE86C3E5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Sneasel",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n75F1384B 7560EC14\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Teddiursa",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nA9363A6D 65B928BE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ursaring",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFAF9CA95 6D4DFAA1\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Slugma",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0B06FC3D 5B7DCF0E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Magcargo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n94B773B1 D7DC6BC3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Swinub",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n8CB67523 D1B29ADF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Piloswine",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n0D58F8E8 56E9DDBE\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Corsola",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC07D0A72 75BA96D6\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Remoraid",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n489AEB58 36B78387\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Octillery",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n36C88C42 4E11F3A5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Delibird",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n35E41090 B9ECD6DC\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Mantine",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n90D950AC 153766D7\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Skarmory",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n33DD8E9F 5291FB11\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Houndour",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9D170F32 9A3AE6C6\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Houndoom",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n51D21188 E27F22B2\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Kingdra",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n677158D7 0A8DB41F\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Phanpy",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n98748D0E E1223E46\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Donphan",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE3B3563A 5F54DE64\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Porygon (2)",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC484D28D 98B902DD\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Stantler",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nF0439302 5C5935A3\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Smeargle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nE0E2610E 0B579620\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Tyrogue",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n7878E81A 38E4FD33\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Hitmontop",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n29E946A5 948032E8\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Smoochum",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n1C3C006A 7DD2D7D5\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Elekid",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCBEB14EF E3D040CA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Magby",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n5EB2A90D DB9646BF\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Miltank",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n86A7DDDD 1305B441\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Blissey",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nD71B31DB 5C07E690\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Raikou",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n6C2FA0AE A7CBF62C\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Entei",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nCC52135F 90466696\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Suicune",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n9D65CF83 D28BD9B9\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Larvitar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nBD81A95C 17CA3F8E\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Pupitar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nB6AA909F 8B413A65\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Tyranitar",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n65F9A4EC 1DCFC7A6\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Lugia",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n67E18ADD F5CCC2FC\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Ho-Oh",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nC452C5C5 9048CDEA\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Celebi",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\n69EAACFB DC32B400\n2E7B7A58 D0781742\nD52902CA 343CF38A",
+    "description": null
+  },
+  {
+    "name": "Treecko",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nFF519410 9707C41E",
+    "description": null
+  },
+  {
+    "name": "Grovyle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n191C5592 74FC56B6",
+    "description": null
+  },
+  {
+    "name": "Sceptile",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n2900F501 DD8F8A75",
+    "description": null
+  },
+  {
+    "name": "Torchic",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n2BB2E27E B4247825",
+    "description": null
+  },
+  {
+    "name": "Combusken",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n18DCB2EE 3B53A73B",
+    "description": null
+  },
+  {
+    "name": "Blaziken",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n8703505E 770F4F19",
+    "description": null
+  },
+  {
+    "name": "Mudkip",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4B7EA694 220D42FC",
+    "description": null
+  },
+  {
+    "name": "Marshtomp",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n0875C94F A9BA2B98",
+    "description": null
+  },
+  {
+    "name": "Swampert",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nFBB30F7B D652EBE5",
+    "description": null
+  },
+  {
+    "name": "Poochyena",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n8BE5FF50 9BCAB639",
+    "description": null
+  },
+  {
+    "name": "Mightyena",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n8EDF5CB9 31CBA19E",
+    "description": null
+  },
+  {
+    "name": "Zigzagoon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA8BC6C16 CC2D7BCF",
+    "description": null
+  },
+  {
+    "name": "Linoone",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n94FAC50A 66A26082",
+    "description": null
+  },
+  {
+    "name": "Wurmple",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nEE62D573 91276D76",
+    "description": null
+  },
+  {
+    "name": "Silcoon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nE5DEEF7A C2D6C6B5",
+    "description": null
+  },
+  {
+    "name": "Beautifly",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n50E2AE92 9518A130",
+    "description": null
+  },
+  {
+    "name": "Cascoon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n85ABD30B F9D998A9",
+    "description": null
+  },
+  {
+    "name": "Dustox",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n65145DBC E7120BEA",
+    "description": null
+  },
+  {
+    "name": "Lotad",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n2376B256 83741C99",
+    "description": null
+  },
+  {
+    "name": "Lombre",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n6837415B 18969C1F",
+    "description": null
+  },
+  {
+    "name": "Ludicolo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4F41F81D 6982279D",
+    "description": null
+  },
+  {
+    "name": "Seedot",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n0F6619ED FD254189",
+    "description": null
+  },
+  {
+    "name": "Nuzleaf",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n51BF31DB 3CC06315",
+    "description": null
+  },
+  {
+    "name": "Shiftry",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n16F75234 7A42B20E",
+    "description": null
+  },
+  {
+    "name": "Nincada",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nB3F64D4D 6249AC46",
+    "description": null
+  },
+  {
+    "name": "Ninjask",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nE5815E58 9DA630C6",
+    "description": null
+  },
+  {
+    "name": "Shedinja",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n82B30DCF C9205D11",
+    "description": null
+  },
+  {
+    "name": "Taillow",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nC6C7064B 3825BAEF",
+    "description": null
+  },
+  {
+    "name": "Swellow",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n88782790 E466DC3B",
+    "description": null
+  },
+  {
+    "name": "Shroomish",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n033D1145 616C09E5",
+    "description": null
+  },
+  {
+    "name": "Breloom",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n6510F4C1 875FF5BE",
+    "description": null
+  },
+  {
+    "name": "Spinda",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n22CFC7E3 4AA657CC",
+    "description": null
+  },
+  {
+    "name": "Wingull",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nE2DADA76 C83BBEC4",
+    "description": null
+  },
+  {
+    "name": "Pelipper",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nBE633F3E 5E93D438",
+    "description": null
+  },
+  {
+    "name": "Surskit",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nB143ACED 8F0F3645",
+    "description": null
+  },
+  {
+    "name": "Masquerain",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n855A4445 1906711D",
+    "description": null
+  },
+  {
+    "name": "Wailmer",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA3F90EB4 F96BE5E0",
+    "description": null
+  },
+  {
+    "name": "Wailord",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n476ACEDD 884EF523",
+    "description": null
+  },
+  {
+    "name": "Skitty",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n8E248FDC AB7017EC",
+    "description": null
+  },
+  {
+    "name": "Delcatty",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nF8282A45 EB5E62F5",
+    "description": null
+  },
+  {
+    "name": "Kecleon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n79CBCFBE 80CDAC7C",
+    "description": null
+  },
+  {
+    "name": "Baltoy",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n8868DACC 3DC77FB3",
+    "description": null
+  },
+  {
+    "name": "Claydol",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA8BE82BD 25258C69",
+    "description": null
+  },
+  {
+    "name": "Nosepass",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n5D9FA244 889D9E8A",
+    "description": null
+  },
+  {
+    "name": "Torkoal",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nE54F503B 83EFBD67",
+    "description": null
+  },
+  {
+    "name": "Sableye",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD8AF48FB 5A676073",
+    "description": null
+  },
+  {
+    "name": "Barboach",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n62E2EBF5 A2F6F53B",
+    "description": null
+  },
+  {
+    "name": "Whiscash",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nCD00C0B0 4B0F3E14",
+    "description": null
+  },
+  {
+    "name": "Luvdisc",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n5116A685 1711AF6C",
+    "description": null
+  },
+  {
+    "name": "Corphish",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4E6F9EEE 7B574061",
+    "description": null
+  },
+  {
+    "name": "Crawdaunt",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n974C9C52 E7D96253",
+    "description": null
+  },
+  {
+    "name": "Feebas",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n5A6F8EDD 049BA190",
+    "description": null
+  },
+  {
+    "name": "Milotic",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n5D329A4E 5F16721A",
+    "description": null
+  },
+  {
+    "name": "Carvanha",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n246CDBB7 D0B4266D",
+    "description": null
+  },
+  {
+    "name": "Sharpedo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nB05C6FDF DEA1943A",
+    "description": null
+  },
+  {
+    "name": "Trapinch",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nB8AC111F 7C7C4343",
+    "description": null
+  },
+  {
+    "name": "Vibrava",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n0DDB775A 8A90F0A6",
+    "description": null
+  },
+  {
+    "name": "Flygon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nEAE6ABD1 F17D8CB3",
+    "description": null
+  },
+  {
+    "name": "Makuhita",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n0CFC8995 ACDF196B",
+    "description": null
+  },
+  {
+    "name": "Hariyama",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA3DC315B 2C8D83BA",
+    "description": null
+  },
+  {
+    "name": "Electrike",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n3B5262FD 1CE17E15",
+    "description": null
+  },
+  {
+    "name": "Manectric",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n6D359CE2 D7D55982",
+    "description": null
+  },
+  {
+    "name": "Numel",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nCE6BF30F DAE80B6B",
+    "description": null
+  },
+  {
+    "name": "Camerupt",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n85E84099 74518E79",
+    "description": null
+  },
+  {
+    "name": "Spheal",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n10CEFECA 2687C14D",
+    "description": null
+  },
+  {
+    "name": "Sealeo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n6A05A32C 1400340D",
+    "description": null
+  },
+  {
+    "name": "Walrein",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n167C9FA2 181D8BD6",
+    "description": null
+  },
+  {
+    "name": "Cacnea",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n31DF2B4B C6C001C3",
+    "description": null
+  },
+  {
+    "name": "Cacturne",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n81D0F49E 8AF9BFA0",
+    "description": null
+  },
+  {
+    "name": "Snorunt",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nDD4E7CED 8ABB1F4B",
+    "description": null
+  },
+  {
+    "name": "Glalie",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4078B988 67DB49E1",
+    "description": null
+  },
+  {
+    "name": "Lunatone",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA13A4DF8 839D5423",
+    "description": null
+  },
+  {
+    "name": "Solrock",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n146C311D D43A83C0",
+    "description": null
+  },
+  {
+    "name": "Azurill",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nC50CA39D 8CBDD786",
+    "description": null
+  },
+  {
+    "name": "Spoink",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4B65BC8E CC94C50D",
+    "description": null
+  },
+  {
+    "name": "Grumpig",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n19C3C800 FC1533A2",
+    "description": null
+  },
+  {
+    "name": "Plusle",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD975CF6D 0E1DCD7B",
+    "description": null
+  },
+  {
+    "name": "Minun",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n6D96A893 F71459A5",
+    "description": null
+  },
+  {
+    "name": "Mawile",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n830ED6C9 1A74921C",
+    "description": null
+  },
+  {
+    "name": "Meditite",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n9072A90F 039D5718",
+    "description": null
+  },
+  {
+    "name": "Medicham",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nDF153836 7EB6D98A",
+    "description": null
+  },
+  {
+    "name": "Swablu",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nCFC6F7A5 4BCC293F",
+    "description": null
+  },
+  {
+    "name": "Altaria",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4BC1BD14 BFFE2F50",
+    "description": null
+  },
+  {
+    "name": "Wynaut",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n3A58D4B6 B4B1C0C1",
+    "description": null
+  },
+  {
+    "name": "Duskull",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n90710AC1 8AA61BA2",
+    "description": null
+  },
+  {
+    "name": "Dusclops",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n62B22404 47CC4FD8",
+    "description": null
+  },
+  {
+    "name": "Roselia",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nE2F16F50 72B5CCD2",
+    "description": null
+  },
+  {
+    "name": "Slakoth",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n69116126 17DD229F",
+    "description": null
+  },
+  {
+    "name": "Vigoroth",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nC3C32B45 61B0E40E",
+    "description": null
+  },
+  {
+    "name": "Slaking",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD8828C61 AE536C42",
+    "description": null
+  },
+  {
+    "name": "Gulpin",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n463B56AA A13ACFEF",
+    "description": null
+  },
+  {
+    "name": "Swalot",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD46FE133 1CE438C0",
+    "description": null
+  },
+  {
+    "name": "Tropius",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n1D317B2D 80B415DB",
+    "description": null
+  },
+  {
+    "name": "Whismur",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n87C5EEC1 84761BC2",
+    "description": null
+  },
+  {
+    "name": "Loudred",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nCBE8A142 D8BBE806",
+    "description": null
+  },
+  {
+    "name": "Exploud",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nF4473797 7702496D",
+    "description": null
+  },
+  {
+    "name": "Clamperl",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD3787D01 E2B0EACC",
+    "description": null
+  },
+  {
+    "name": "Huntail",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n0C1ECE69 36F6BD3C",
+    "description": null
+  },
+  {
+    "name": "Gorebyss",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n7B2D4F6F 2E833515",
+    "description": null
+  },
+  {
+    "name": "Absol",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nFF60F6DB 3AF3AB46",
+    "description": null
+  },
+  {
+    "name": "Shuppet",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nEBC6AACD D37608D8",
+    "description": null
+  },
+  {
+    "name": "Banette",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n65BA1549 20094D53",
+    "description": null
+  },
+  {
+    "name": "Seviper",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n72AA4DE5 6ABF65C2",
+    "description": null
+  },
+  {
+    "name": "Zangoose",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n8E786AF2 CC1F1145",
+    "description": null
+  },
+  {
+    "name": "Relicanth",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA5D889A8 F6D478E4",
+    "description": null
+  },
+  {
+    "name": "Aron",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nEBB5BBFD 2A2BFF22",
+    "description": null
+  },
+  {
+    "name": "Lairon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nC48EBFC9 17F60DCB",
+    "description": null
+  },
+  {
+    "name": "Aggron",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA81A4BEA 7F920596",
+    "description": null
+  },
+  {
+    "name": "Castform",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nB75C81C6 71310AC6",
+    "description": null
+  },
+  {
+    "name": "Volbeat",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n7829F016 966D8DBC",
+    "description": null
+  },
+  {
+    "name": "Illumise",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n2B2E9433 9BB3A322",
+    "description": null
+  },
+  {
+    "name": "Lileep",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n99FADC1B 78024F8F",
+    "description": null
+  },
+  {
+    "name": "Cradily",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n26A89D4C 4AE51451",
+    "description": null
+  },
+  {
+    "name": "Anorith",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n42E26E86 D4C2A2F1",
+    "description": null
+  },
+  {
+    "name": "Armaldo",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n1213C40F EFE2A390",
+    "description": null
+  },
+  {
+    "name": "Ralts",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n478FCF0A DA638B36",
+    "description": null
+  },
+  {
+    "name": "Kirlia",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n94CC266F F4E3E38B",
+    "description": null
+  },
+  {
+    "name": "Gardevoir",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n783783E6 8191284C",
+    "description": null
+  },
+  {
+    "name": "Bagon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n31736918 3CF91681",
+    "description": null
+  },
+  {
+    "name": "Shelgon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nF3C106DF C1B4B401",
+    "description": null
+  },
+  {
+    "name": "Salamence",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n9F359111 F49FFDBD",
+    "description": null
+  },
+  {
+    "name": "Beldum",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nC9E24E78 A7C6CB8C",
+    "description": null
+  },
+  {
+    "name": "Metang",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nC41BF3CC D820E4C2",
+    "description": null
+  },
+  {
+    "name": "Metagross",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n89915916 2C32BEB0",
+    "description": null
+  },
+  {
+    "name": "Regirock",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n73DD0F64 64ED1CF3",
+    "description": null
+  },
+  {
+    "name": "Regice",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nA3D3B3AF D64876F2",
+    "description": null
+  },
+  {
+    "name": "Registeel",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n006FE0DA 96303C7D",
+    "description": null
+  },
+  {
+    "name": "Kyogre",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n4FE5D9C2 F24BABE5",
+    "description": null
+  },
+  {
+    "name": "Groudon",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD052261D 6E811DFD",
+    "description": null
+  },
+  {
+    "name": "Rayquaza",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n83E8BB41 18D4DD57",
+    "description": null
+  },
+  {
+    "name": "Latias",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n53987417 B1D967A1",
+    "description": null
+  },
+  {
+    "name": "Latios",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\nD633975C ECDF7A4F",
+    "description": null
+  },
+  {
+    "name": "Jirachi",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n3AEE1AFF 3C526B8B",
+    "description": null
+  },
+  {
+    "name": "Deoxys",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n798A3738 3F94DB5D",
+    "description": null
+  },
+  {
+    "name": "Chimecho",
+    "category": "Encounters",
+    "code": "25214170 0AB256A2\nFFA6733C EE552E68\n2E7B7A58 D0781742\n7CDF051B 9B051951",
+    "description": null
   }
 ]

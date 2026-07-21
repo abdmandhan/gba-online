@@ -7,6 +7,7 @@ import { slugify } from "@/lib/slug";
 // GET /api/games — list all games in the shared library.
 export async function GET() {
   const games = await prisma.game.findMany({
+    where: { archivedAt: null },
     orderBy: { createdAt: "desc" },
     select: {
       id: true,

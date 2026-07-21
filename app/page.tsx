@@ -6,28 +6,39 @@ import { auth } from "@/auth";
 
 export const dynamic = "force-dynamic";
 
-export default async function Home() {
-  const session = await auth();
+const GAME_CARD_SELECT = {
+  id: true,
+  title: true,
+  core: true,
+  coverUrl: true,
+  uploadedById: true,
+  archivedAt: true,
+} as const;
 
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ archived?: string }>;
+}) {
+  const session = await auth();
+  const showArchived = (await searchParams).archived === "1";
+
+  // Archived games are hidden from every list by default.
   const games = await prisma.game.findMany({
     orderBy: { createdAt: "desc" },
-    where: session?.user?.id
-      ? {
-          OR: [
-            { archivedAt: null },
-            { uploadedById: session.user.id },
-          ],
-        }
-      : { archivedAt: null },
-    select: {
-      id: true,
-      title: true,
-      core: true,
-      coverUrl: true,
-      uploadedById: true,
-      archivedAt: true,
-    },
+    where: { archivedAt: null },
+    select: GAME_CARD_SELECT,
   });
+
+  // Owner-only: their archived games, revealed by the "Show archived" toggle.
+  const archivedGames =
+    showArchived && session?.user?.id
+      ? await prisma.game.findMany({
+          orderBy: { createdAt: "desc" },
+          where: { archivedAt: { not: null }, uploadedById: session.user.id },
+          select: GAME_CARD_SELECT,
+        })
+      : [];
 
   return (
     <>
@@ -41,6 +52,17 @@ export default async function Home() {
             Play GBA Pokémon in your browser<span className="blink">_</span>
           </p>
         </section>
+
+        {session?.user && (
+          <div className="mb-6 flex justify-end">
+            <Link
+              href={showArchived ? "/" : "/?archived=1"}
+              className="btn-arcade btn-cyan no-underline !px-3 !py-2 !text-[9px]"
+            >
+              {showArchived ? "Hide archived" : "Show archived"}
+            </Link>
+          </div>
+        )}
 
         {games.length === 0 ? (
           <div className="panel mx-auto max-w-xl p-8 text-center">
@@ -75,6 +97,17 @@ export default async function Home() {
               />
             ))}
           </div>
+        )}
+
+        {archivedGames.length > 0 && (
+          <section className="mt-12">
+            <p className="pixel text-[11px] glow-magenta">ARCHIVED</p>
+            <div className="mt-5 grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-4">
+              {archivedGames.map((game) => (
+                <GameCard key={game.id} game={game} isOwner />
+              ))}
+            </div>
+          </section>
         )}
       </main>
 
